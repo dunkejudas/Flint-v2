@@ -8,6 +8,7 @@ public class gameManager : MonoBehaviour {
 
     [SerializeField] public List<GameObject> allLanterns;
 
+
     public float rateIncrementTimer;
     private float time;
     public float rateIncrement;
@@ -28,13 +29,15 @@ public class gameManager : MonoBehaviour {
     private ScreenFader screenFaderHandle;
     private monsterScript monsterHandle;
     private Animator platformHandle;
+    private mainGUItext scoreTextHandle;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         totalLanterns = allLanterns.Count;
         monsterHandle = GameObject.FindObjectOfType<monsterScript>();
         screenFaderHandle = GameObject.FindObjectOfType<ScreenFader>();
+        scoreTextHandle = GameObject.FindObjectOfType<mainGUItext>();
 
         foreach (GameObject obj in GameObject.FindGameObjectsWithTag("platform"))
         {
@@ -69,6 +72,7 @@ public class gameManager : MonoBehaviour {
         monsterHandle.playEnding();
         platformHandle.SetBool("platformOpen", true);
         screenFaderHandle.EndScene(SceneManager.GetActiveScene().buildIndex,2.0f);
+        scoreTextHandle.paused = true;
 
     }
 

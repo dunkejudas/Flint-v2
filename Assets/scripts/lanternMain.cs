@@ -25,7 +25,8 @@ public class lanternMain : MonoBehaviour {
     {
         if (lanternAlive)
         {
-            textHandle.text = time.ToString();
+            float tempTime = (Mathf.Floor(time * 100f)) / 100f;
+            textHandle.text = tempTime.ToString();
 
             if (time > 0)
             {
