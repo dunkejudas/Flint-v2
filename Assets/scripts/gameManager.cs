@@ -30,6 +30,7 @@ public class gameManager : MonoBehaviour {
     private monsterScript monsterHandle;
     private Animator platformHandle;
     private mainGUItext scoreTextHandle;
+    private mainLight mainLightHandle;
 
 
     // Use this for initialization
@@ -38,6 +39,7 @@ public class gameManager : MonoBehaviour {
         monsterHandle = GameObject.FindObjectOfType<monsterScript>();
         screenFaderHandle = GameObject.FindObjectOfType<ScreenFader>();
         scoreTextHandle = GameObject.FindObjectOfType<mainGUItext>();
+        mainLightHandle = GameObject.FindObjectOfType<mainLight>();
 
         foreach (GameObject obj in GameObject.FindGameObjectsWithTag("platform"))
         {
@@ -72,6 +74,7 @@ public class gameManager : MonoBehaviour {
         monsterHandle.playEnding();
         platformHandle.SetBool("platformOpen", true);
         screenFaderHandle.EndScene(SceneManager.GetActiveScene().buildIndex,2.0f);
+        mainLightHandle.doom = true;
         scoreTextHandle.paused = true;
 
     }

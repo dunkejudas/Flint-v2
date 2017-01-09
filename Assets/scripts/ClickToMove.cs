@@ -37,6 +37,7 @@ namespace CompleteProject
             if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
             {
                 if (!navMeshAgent.hasPath || Mathf.Abs(navMeshAgent.velocity.sqrMagnitude) < float.Epsilon)
+                    anim.SetBool("startWalking", false);
                     walking = false;
             }
             else
@@ -59,10 +60,11 @@ namespace CompleteProject
 
 					else
 					{
-						walking = true;
+                        StartCoroutine("rotateToTarget", hit.point);
+
+
 						enemyClicked = false;
-						navMeshAgent.destination = hit.point;
-						navMeshAgent.Resume();
+
 					}
 				}
 			}
@@ -80,9 +82,10 @@ namespace CompleteProject
 			navMeshAgent.destination = targetedEnemy.position;
 			if (navMeshAgent.remainingDistance >= shootDistance) {
 
-				navMeshAgent.Resume();
-				walking = true;
-			}
+                StartCoroutine("rotateToTarget", targetedEnemy.position);
+                //navMeshAgent.Resume();
+                //walking = true;
+            }
 
 			if (navMeshAgent.remainingDistance <= shootDistance && navMeshAgent.pathPending == false) {
 				transform.LookAt(targetedEnemy);
@@ -91,6 +94,8 @@ namespace CompleteProject
 				{
 					nextFire = Time.time + shootRate;
                     targetedEnemy.GetComponent<lanternMain>().activate();
+                    anim.SetBool("startWalking", false);    
+                    anim.SetBool("startInteracting", true);
 				}
 				navMeshAgent.Stop();
 				walking = false;
@@ -98,6 +103,38 @@ namespace CompleteProject
             }
 		}
 
-	}
+        public IEnumerator rotateToTarget(Vector3 point)
+        {
+            navMeshAgent.updateRotation = false;
+            Quaternion lookDirection = Quaternion.LookRotation((point - this.transform.position).normalized);
+            Quaternion.EulerAngles(new Vector3(0, transform.eulerAngles.y, 0));
+
+            int loops = 0;
+
+            while (true)
+            {
+
+                this.gameObject.transform.rotation = Quaternion.RotateTowards(transform.rotation, lookDirection, 30.0f);
+                transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
+                if (Quaternion.Angle(lookDirection,transform.rotation) < 30f | loops++ > 100)
+                {
+                    anim.SetBool("startWalking", true);
+                    walking = true;
+                    navMeshAgent.destination = point;
+                    navMeshAgent.updateRotation = true;
+                    navMeshAgent.Resume();
+
+                    yield break;
+                }
+                yield return null;
+            }
+        }
+
+        public void interactionFrame()
+        {
+            anim.SetBool("startInteracting", false);
+        }
+
+    }
 
 }
