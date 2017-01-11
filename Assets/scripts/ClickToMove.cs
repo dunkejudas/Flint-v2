@@ -107,7 +107,7 @@ namespace CompleteProject
         {
             navMeshAgent.updateRotation = false;
             Quaternion lookDirection = Quaternion.LookRotation((point - this.transform.position).normalized);
-            Quaternion.EulerAngles(new Vector3(0, transform.eulerAngles.y, 0));
+            Quaternion.Euler(new Vector3(0, transform.eulerAngles.y, 0));
 
             int loops = 0;
 

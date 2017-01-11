@@ -7,6 +7,8 @@ public class monsterScript : MonoBehaviour {
     private Animator animator;
     private GameObject playerHandle;
 
+    public bool followPlayer = true;
+
 	// Use this for initialization
 	void Start () {
 
@@ -20,6 +22,11 @@ public class monsterScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+        if (followPlayer)
+        {
+            Vector3 tempPosition = Vector3.Lerp(this.transform.position, playerHandle.transform.position, Time.deltaTime);
+            this.transform.position = new Vector3(tempPosition.x, this.transform.position.y, tempPosition.z);
+        }
 	}
 
     public void playEnding()

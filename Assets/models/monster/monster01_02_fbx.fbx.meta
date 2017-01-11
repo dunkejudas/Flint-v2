@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: a7718efac2d9263418fb6046304d9b83
+timeCreated: 1484171024
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Group6681
+    100002: Group6681 1
+    100004: Group6681 10
+    100006: Group6681 11
+    100008: Group6681 2
+    100010: Group6681 3
+    100012: Group6681 4
+    100014: Group6681 5
+    100016: Group6681 6
+    100018: Group6681 7
+    100020: Group6681 8
+    100022: Group6681 9
+    100024: GRP_tentacle01
+    100026: GRP_tentacle010
+    100028: GRP_tentacle011
+    100030: GRP_tentacle012
+    100032: GRP_tentacle013
+    100034: GRP_tentacle02
+    100036: GRP_tentacle03
+    100038: GRP_tentacle04
+    100040: GRP_tentacle05
+    100042: GRP_tentacle06
+    100044: GRP_tentacle07
+    100046: GRP_tentacle08
+    100048: GRP_tentacle09
+    100050: joint1
+    100052: joint1 1
+    100054: joint1 10
+    100056: joint1 11
+    100058: joint1 12
+    100060: joint1 2
+    100062: joint1 3
+    100064: joint1 4
+    100066: joint1 5
+    100068: joint1 6
+    100070: joint1 7
+    100072: joint1 8
+    100074: joint1 9
+    100076: joint10
+    100078: joint11
+    100080: joint2
+    100082: joint2 1
+    100084: joint2 10
+    100086: joint2 11
+    100088: joint2 12
+    100090: joint2 2
+    100092: joint2 3
+    100094: joint2 4
+    100096: joint2 5
+    100098: joint2 6
+    100100: joint2 7
+    100102: joint2 8
+    100104: joint2 9
+    100106: joint3
+    100108: joint3 1
+    100110: joint3 10
+    100112: joint3 11
+    100114: joint3 12
+    100116: joint3 2
+    100118: joint3 3
+    100120: joint3 4
+    100122: joint3 5
+    100124: joint3 6
+    100126: joint3 7
+    100128: joint3 8
+    100130: joint3 9
+    100132: joint4
+    100134: joint4 1
+    100136: joint4 10
+    100138: joint4 11
+    100140: joint4 12
+    100142: joint4 2
+    100144: joint4 3
+    100146: joint4 4
+    100148: joint4 5
+    100150: joint4 6
+    100152: joint4 7
+    100154: joint4 8
+    100156: joint4 9
+    100158: joint5
+    100160: joint5 1
+    100162: joint5 10
+    100164: joint5 11
+    100166: joint5 12
+    100168: joint5 2
+    100170: joint5 3
+    100172: joint5 4
+    100174: joint5 5
+    100176: joint5 6
+    100178: joint5 7
+    100180: joint5 8
+    100182: joint5 9
+    100184: joint6
+    100186: joint7
+    100188: joint8
+    100190: joint9
+    100192: //RootNode
+    100194: monster_head_lowpoly:Group9690
+    100196: monster_teeth_lowpoly:Group5040
+    100198: monster_teeth_lowpoly:Group5055
+    100200: monster_tentacle_lowpoly:Group6681
+    400000: Group6681
+    400002: Group6681 1
+    400004: Group6681 10
+    400006: Group6681 11
+    400008: Group6681 2
+    400010: Group6681 3
+    400012: Group6681 4
+    400014: Group6681 5
+    400016: Group6681 6
+    400018: Group6681 7
+    400020: Group6681 8
+    400022: Group6681 9
+    400024: GRP_tentacle01
+    400026: GRP_tentacle010
+    400028: GRP_tentacle011
+    400030: GRP_tentacle012
+    400032: GRP_tentacle013
+    400034: GRP_tentacle02
+    400036: GRP_tentacle03
+    400038: GRP_tentacle04
+    400040: GRP_tentacle05
+    400042: GRP_tentacle06
+    400044: GRP_tentacle07
+    400046: GRP_tentacle08
+    400048: GRP_tentacle09
+    400050: joint1
+    400052: joint1 1
+    400054: joint1 10
+    400056: joint1 11
+    400058: joint1 12
+    400060: joint1 2
+    400062: joint1 3
+    400064: joint1 4
+    400066: joint1 5
+    400068: joint1 6
+    400070: joint1 7
+    400072: joint1 8
+    400074: joint1 9
+    400076: joint10
+    400078: joint11
+    400080: joint2
+    400082: joint2 1
+    400084: joint2 10
+    400086: joint2 11
+    400088: joint2 12
+    400090: joint2 2
+    400092: joint2 3
+    400094: joint2 4
+    400096: joint2 5
+    400098: joint2 6
+    400100: joint2 7
+    400102: joint2 8
+    400104: joint2 9
+    400106: joint3
+    400108: joint3 1
+    400110: joint3 10
+    400112: joint3 11
+    400114: joint3 12
+    400116: joint3 2
+    400118: joint3 3
+    400120: joint3 4
+    400122: joint3 5
+    400124: joint3 6
+    400126: joint3 7
+    400128: joint3 8
+    400130: joint3 9
+    400132: joint4
+    400134: joint4 1
+    400136: joint4 10
+    400138: joint4 11
+    400140: joint4 12
+    400142: joint4 2
+    400144: joint4 3
+    400146: joint4 4
+    400148: joint4 5
+    400150: joint4 6
+    400152: joint4 7
+    400154: joint4 8
+    400156: joint4 9
+    400158: joint5
+    400160: joint5 1
+    400162: joint5 10
+    400164: joint5 11
+    400166: joint5 12
+    400168: joint5 2
+    400170: joint5 3
+    400172: joint5 4
+    400174: joint5 5
+    400176: joint5 6
+    400178: joint5 7
+    400180: joint5 8
+    400182: joint5 9
+    400184: joint6
+    400186: joint7
+    400188: joint8
+    400190: joint9
+    400192: //RootNode
+    400194: monster_head_lowpoly:Group9690
+    400196: monster_teeth_lowpoly:Group5040
+    400198: monster_teeth_lowpoly:Group5055
+    400200: monster_tentacle_lowpoly:Group6681
+    4300000: monster_head_lowpoly:Group9690
+    4300002: monster_teeth_lowpoly:Group5040
+    4300004: monster_teeth_lowpoly:Group5055
+    4300006: monster_tentacle_lowpoly:Group6681
+    4300008: Group6681
+    4300010: Group6681
+    4300012: Group6681
+    4300014: Group6681
+    4300016: Group6681
+    4300018: Group6681
+    4300020: Group6681
+    4300022: Group6681
+    4300024: Group6681
+    4300026: Group6681
+    4300028: Group6681
+    4300030: Group6681
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Group6681
+    13700002: Group6681 1
+    13700004: Group6681 10
+    13700006: Group6681 11
+    13700008: Group6681 2
+    13700010: Group6681 3
+    13700012: Group6681 4
+    13700014: Group6681 5
+    13700016: Group6681 6
+    13700018: Group6681 7
+    13700020: Group6681 8
+    13700022: Group6681 9
+    13700024: monster_head_lowpoly:Group9690
+    13700026: monster_teeth_lowpoly:Group5040
+    13700028: monster_teeth_lowpoly:Group5055
+    13700030: monster_tentacle_lowpoly:Group6681
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.54430383
+        functionName: monsterMouthClose
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GRP_tentacle01
+        weight: 1
+      - path: GRP_tentacle01/joint1
+        weight: 1
+      - path: GRP_tentacle01/joint1/joint2
+        weight: 1
+      - path: GRP_tentacle01/joint1/joint2/joint3
+        weight: 1
+      - path: GRP_tentacle01/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: GRP_tentacle01/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: GRP_tentacle01/monster_tentacle_lowpoly:Group6681
+        weight: 1
+      - path: GRP_tentacle02
+        weight: 1
+      - path: GRP_tentacle02/Group6681 4
+        weight: 1
+      - path: GRP_tentacle02/joint1 5
+        weight: 1
+      - path: GRP_tentacle02/joint1 5/joint2 5
+        weight: 1
+      - path: GRP_tentacle02/joint1 5/joint2 5/joint3 5
+        weight: 1
+      - path: GRP_tentacle02/joint1 5/joint2 5/joint3 5/joint4 5
+        weight: 1
+      - path: GRP_tentacle02/joint1 5/joint2 5/joint3 5/joint4 5/joint5 5
+        weight: 1
+      - path: GRP_tentacle03
+        weight: 1
+      - path: GRP_tentacle03/Group6681 5
+        weight: 1
+      - path: GRP_tentacle03/joint1 6
+        weight: 1
+      - path: GRP_tentacle03/joint1 6/joint2 6
+        weight: 1
+      - path: GRP_tentacle03/joint1 6/joint2 6/joint3 6
+        weight: 1
+      - path: GRP_tentacle03/joint1 6/joint2 6/joint3 6/joint4 6
+        weight: 1
+      - path: GRP_tentacle03/joint1 6/joint2 6/joint3 6/joint4 6/joint5 6
+        weight: 1
+      - path: GRP_tentacle04
+        weight: 1
+      - path: GRP_tentacle04/Group6681 6
+        weight: 1
+      - path: GRP_tentacle04/joint1 7
+        weight: 1
+      - path: GRP_tentacle04/joint1 7/joint2 7
+        weight: 1
+      - path: GRP_tentacle04/joint1 7/joint2 7/joint3 7
+        weight: 1
+      - path: GRP_tentacle04/joint1 7/joint2 7/joint3 7/joint4 7
+        weight: 1
+      - path: GRP_tentacle04/joint1 7/joint2 7/joint3 7/joint4 7/joint5 7
+        weight: 1
+      - path: GRP_tentacle05
+        weight: 1
+      - path: GRP_tentacle05/Group6681 7
+        weight: 1
+      - path: GRP_tentacle05/joint1 8
+        weight: 1
+      - path: GRP_tentacle05/joint1 8/joint2 8
+        weight: 1
+      - path: GRP_tentacle05/joint1 8/joint2 8/joint3 8
+        weight: 1
+      - path: GRP_tentacle05/joint1 8/joint2 8/joint3 8/joint4 8
+        weight: 1
+      - path: GRP_tentacle05/joint1 8/joint2 8/joint3 8/joint4 8/joint5 8
+        weight: 1
+      - path: GRP_tentacle06
+        weight: 1
+      - path: GRP_tentacle06/Group6681 8
+        weight: 1
+      - path: GRP_tentacle06/joint1 9
+        weight: 1
+      - path: GRP_tentacle06/joint1 9/joint2 9
+        weight: 1
+      - path: GRP_tentacle06/joint1 9/joint2 9/joint3 9
+        weight: 1
+      - path: GRP_tentacle06/joint1 9/joint2 9/joint3 9/joint4 9
+        weight: 1
+      - path: GRP_tentacle06/joint1 9/joint2 9/joint3 9/joint4 9/joint5 9
+        weight: 1
+      - path: GRP_tentacle07
+        weight: 1
+      - path: GRP_tentacle07/Group6681 9
+        weight: 1
+      - path: GRP_tentacle07/joint1 10
+        weight: 1
+      - path: GRP_tentacle07/joint1 10/joint2 10
+        weight: 1
+      - path: GRP_tentacle07/joint1 10/joint2 10/joint3 10
+        weight: 1
+      - path: GRP_tentacle07/joint1 10/joint2 10/joint3 10/joint4 10
+        weight: 1
+      - path: GRP_tentacle07/joint1 10/joint2 10/joint3 10/joint4 10/joint5 10
+        weight: 1
+      - path: GRP_tentacle08
+        weight: 1
+      - path: GRP_tentacle08/Group6681 10
+        weight: 1
+      - path: GRP_tentacle08/joint1 11
+        weight: 1
+      - path: GRP_tentacle08/joint1 11/joint2 11
+        weight: 1
+      - path: GRP_tentacle08/joint1 11/joint2 11/joint3 11
+        weight: 1
+      - path: GRP_tentacle08/joint1 11/joint2 11/joint3 11/joint4 11
+        weight: 1
+      - path: GRP_tentacle08/joint1 11/joint2 11/joint3 11/joint4 11/joint5 11
+        weight: 1
+      - path: GRP_tentacle09
+        weight: 1
+      - path: GRP_tentacle09/Group6681 11
+        weight: 1
+      - path: GRP_tentacle09/joint1 12
+        weight: 1
+      - path: GRP_tentacle09/joint1 12/joint2 12
+        weight: 1
+      - path: GRP_tentacle09/joint1 12/joint2 12/joint3 12
+        weight: 1
+      - path: GRP_tentacle09/joint1 12/joint2 12/joint3 12/joint4 12
+        weight: 1
+      - path: GRP_tentacle09/joint1 12/joint2 12/joint3 12/joint4 12/joint5 12
+        weight: 1
+      - path: GRP_tentacle010
+        weight: 1
+      - path: GRP_tentacle010/Group6681
+        weight: 1
+      - path: GRP_tentacle010/joint1 1
+        weight: 1
+      - path: GRP_tentacle010/joint1 1/joint2 1
+        weight: 1
+      - path: GRP_tentacle010/joint1 1/joint2 1/joint3 1
+        weight: 1
+      - path: GRP_tentacle010/joint1 1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: GRP_tentacle010/joint1 1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: GRP_tentacle011
+        weight: 1
+      - path: GRP_tentacle011/Group6681 1
+        weight: 1
+      - path: GRP_tentacle011/joint1 2
+        weight: 1
+      - path: GRP_tentacle011/joint1 2/joint2 2
+        weight: 1
+      - path: GRP_tentacle011/joint1 2/joint2 2/joint3 2
+        weight: 1
+      - path: GRP_tentacle011/joint1 2/joint2 2/joint3 2/joint4 2
+        weight: 1
+      - path: GRP_tentacle011/joint1 2/joint2 2/joint3 2/joint4 2/joint5 2
+        weight: 1
+      - path: GRP_tentacle012
+        weight: 1
+      - path: GRP_tentacle012/Group6681 2
+        weight: 1
+      - path: GRP_tentacle012/joint1 3
+        weight: 1
+      - path: GRP_tentacle012/joint1 3/joint2 3
+        weight: 1
+      - path: GRP_tentacle012/joint1 3/joint2 3/joint3 3
+        weight: 1
+      - path: GRP_tentacle012/joint1 3/joint2 3/joint3 3/joint4 3
+        weight: 1
+      - path: GRP_tentacle012/joint1 3/joint2 3/joint3 3/joint4 3/joint5 3
+        weight: 1
+      - path: GRP_tentacle013
+        weight: 1
+      - path: GRP_tentacle013/Group6681 3
+        weight: 1
+      - path: GRP_tentacle013/joint1 4
+        weight: 1
+      - path: GRP_tentacle013/joint1 4/joint2 4
+        weight: 1
+      - path: GRP_tentacle013/joint1 4/joint2 4/joint3 4
+        weight: 1
+      - path: GRP_tentacle013/joint1 4/joint2 4/joint3 4/joint4 4
+        weight: 1
+      - path: GRP_tentacle013/joint1 4/joint2 4/joint3 4/joint4 4/joint5 4
+        weight: 1
+      - path: joint11
+        weight: 1
+      - path: joint11/joint6
+        weight: 1
+      - path: joint11/joint6/joint7
+        weight: 1
+      - path: joint11/joint6/joint7/joint8
+        weight: 1
+      - path: joint11/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: joint11/joint6/joint7/joint10
+        weight: 1
+      - path: monster_head_lowpoly:Group9690
+        weight: 1
+      - path: monster_teeth_lowpoly:Group5040
+        weight: 1
+      - path: monster_teeth_lowpoly:Group5055
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 60
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

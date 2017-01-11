@@ -48,7 +48,7 @@ public class lanternMain : MonoBehaviour {
         if (!lanternAlive | time > initalDelay)
             return;
 
-        time = initalDelay + Random.RandomRange(0f,randomTimeRange);
+        time = initalDelay + Random.Range(0f,randomTimeRange);
     }
 
     public void lanternDeath()
