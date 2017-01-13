@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class lanternMain : MonoBehaviour {
 
     public float initalDelay = 1;
@@ -13,6 +14,9 @@ public class lanternMain : MonoBehaviour {
     public float randomTimeRange;
     public TextMesh textHandle;
     public gameManager managerHandle;
+
+    [SerializeField]
+    public List<ParticleSystem> particleHandle;
 
     // Use this for initialization
     void Start () {
@@ -55,6 +59,10 @@ public class lanternMain : MonoBehaviour {
     {
         managerHandle.onLanternDeath();
         lanternAlive = false;
+        foreach(ParticleSystem a in particleHandle)
+        {
+            a.Stop();
+        }
         //turn off light, lantern dies
     }
 

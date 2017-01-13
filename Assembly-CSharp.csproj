@@ -46,6 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Fire FX\Demo\Scripts\ButtonScript.cs" />
+     <Compile Include="Assets\Fire FX\Demo\Scripts\DragMouseOrbit.cs" />
+     <Compile Include="Assets\Fire FX\Demo\Scripts\FireProjectile.cs" />
+     <Compile Include="Assets\Fire FX\Demo\Scripts\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\Fire FX\Demo\Scripts\Projectile.cs" />
+     <Compile Include="Assets\Fire FX\Demo\Scripts\ProjectileScript.cs" />
+     <Compile Include="Assets\Fire FX\Scripts\lightScript.cs" />
+     <Compile Include="Assets\Fire FX\Scripts\loopScript.cs" />
      <Compile Include="Assets\mainLight.cs" />
      <Compile Include="Assets\scripts\ClickToMove.cs" />
      <Compile Include="Assets\scripts\ScreenFader.cs" />
@@ -54,6 +62,7 @@
      <Compile Include="Assets\scripts\mainGUItext.cs" />
      <Compile Include="Assets\scripts\monsterScript.cs" />
      <Compile Include="Assets\scripts\startWalking.cs" />
+     <None Include="Assets\models\Lanterns\flame_FX_shader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
