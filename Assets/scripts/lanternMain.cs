@@ -20,6 +20,9 @@ public class lanternMain : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
+        managerHandle = GameObject.FindObjectOfType<gameManager>();
+
         delay = initalDelay;
         time = delay + extraStartTime;
         lanternAlive = true;
