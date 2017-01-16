@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 52d3abb2e56b913439c444618c794f46
-timeCreated: 1484496751
+timeCreated: 1484524055
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -10,45 +10,41 @@ ModelImporter:
     100004: chan01_02
     100006: chan01_03
     100008: chan01_04
-    100010: //RootNode
-    100012: lanternMain
-    100014: joint1
-    100016: joint2
-    100018: joint3
-    100020: joint4
+    100010: joint1
+    100012: joint2
+    100014: joint3
+    100016: joint4
+    100018: //RootNode
+    100020: lanternMain
     100022: lanternMain 1
     400000: chain02_long_01
     400002: chan01_01
     400004: chan01_02
     400006: chan01_03
     400008: chan01_04
-    400010: //RootNode
-    400012: lanternMain
-    400014: joint1
-    400016: joint2
-    400018: joint3
-    400020: joint4
+    400010: joint1
+    400012: joint2
+    400014: joint3
+    400016: joint4
+    400018: //RootNode
+    400020: lanternMain
     400022: lanternMain 1
-    2300000: chain02_long_01
-    2300002: chan01_01
-    2300004: chan01_02
-    2300006: chan01_03
-    2300008: chan01_04
-    2300010: lanternMain
-    2300012: lanternMain 1
-    3300000: chain02_long_01
-    3300002: chan01_01
-    3300004: chan01_02
-    3300006: chan01_03
-    3300008: chan01_04
-    3300010: lanternMain
-    3300012: lanternMain 1
-    4300000: chan01_04
-    4300002: chan01_01
-    4300004: chan01_02
-    4300006: chan01_03
-    4300008: chain02_long_01
-    4300010: lanternMain
+    2300000: chan01_01
+    2300002: chan01_02
+    2300004: chan01_03
+    2300006: chan01_04
+    2300008: lanternMain 1
+    3300000: chan01_01
+    3300002: chan01_02
+    3300004: chan01_03
+    3300006: chan01_04
+    3300008: lanternMain 1
+    4300000: chain02_long_01
+    4300002: lanternMain
+    4300004: chan01_03
+    4300006: chan01_02
+    4300008: chan01_01
+    4300010: chan01_04
     7400000: fallDown
     7400002: Idle
     7400004: Death
@@ -131,7 +127,7 @@ ModelImporter:
       name: Idle
       takeName: Take 001
       firstFrame: 45
-      lastFrame: 70
+      lastFrame: 69
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
