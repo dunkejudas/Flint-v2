@@ -1,0 +1,2255 @@
+fileFormatVersion: 2
+guid: 8edbacdbb804b0d40ad0600572227bc4
+timeCreated: 1484779769
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BN_clavicle_L_end
+    100002: BN_clavicle_L_start
+    100004: BN_clavicle_R_end
+    100006: BN_clavicle_R_start
+    100008: BN_head
+    100010: BN_headEnd
+    100012: BN_hoodie_A
+    100014: BN_hoodie_B
+    100016: BN_hoodie_C
+    100018: BN_hoodie_D
+    100020: BN_L_arm_elbow
+    100022: BN_L_arm_fingerA
+    100024: BN_L_arm_fingerB
+    100026: BN_L_arm_fingerC
+    100028: BN_L_arm_hand
+    100030: BN_L_arm_shoulder
+    100032: BN_L_arm_thumbA
+    100034: BN_L_arm_thumbB
+    100036: BN_L_arm_thumbC
+    100038: BN_L_arm_thumbD
+    100040: BN_L_arm_wrist
+    100042: BN_L_leg_ankle
+    100044: BN_L_leg_ball
+    100046: BN_L_leg_hip
+    100048: BN_L_leg_knee
+    100050: BN_L_leg_toe
+    100052: BN_L_leg_toeEnd
+    100054: BN_pelvis
+    100056: BN_R_arm_elbow
+    100058: BN_R_arm_fingerA
+    100060: BN_R_arm_fingerB
+    100062: BN_R_arm_fingerC
+    100064: BN_R_arm_hand
+    100066: BN_R_arm_shoulder
+    100068: BN_R_arm_thumbA
+    100070: BN_R_arm_thumbB
+    100072: BN_R_arm_thumbC
+    100074: BN_R_arm_thumbD
+    100076: BN_R_arm_wrist
+    100078: BN_R_leg_ankle
+    100080: BN_R_leg_ball
+    100082: BN_R_leg_hip
+    100084: BN_R_leg_knee
+    100086: BN_R_leg_toe
+    100088: BN_R_leg_toeEnd
+    100090: BN_spine_A
+    100092: BN_spine_B
+    100094: BN_spine_C1
+    100096: CC_hood_end
+    100098: CC_L_arm
+    100100: CC_L_foot
+    100102: CC_L_foot 1
+    100104: CC_main
+    100106: CC_neck
+    100108: CC_R_arm
+    100110: CC_upperBody
+    100112: //RootNode
+    100114: cluster1Handle
+    100116: cluster2Handle
+    100118: cluster3Handle
+    100120: cluster4Handle
+    100122: CRV_L_poleVector
+    100124: CRV_L_poleVector 1
+    100126: CRV_L_poleVector 2
+    100128: CRV_L_poleVector 3
+    100130: curve2
+    100132: curve3
+    100134: group1
+    100136: group10
+    100138: group3
+    100140: group4
+    100142: group5
+    100144: group6
+    100146: group7
+    100148: group8
+    100150: group9
+    100152: GRP_CC_L_arm
+    100154: GRP_CC_L_foot
+    100156: GRP_CC_L_foot1
+    100158: GRP_CC_main
+    100160: GRP_CC_neck
+    100162: GRP_CC_neck1
+    100164: GRP_CC_R_arm
+    100166: GRP_CC_upperBody
+    100168: GRP_CRV_L_poleVector
+    100170: GRP_CRV_L_poleVector1
+    100172: GRP_CRV_L_poleVector2
+    100174: GRP_CRV_L_poleVector3
+    100176: GRP_detailJoint
+    100178: GRP_joints
+    100180: GRP_L_arm_handIK
+    100182: GRP_L_foot_allIKs
+    100184: GRP_L_foot_toeRoll_IKs
+    100186: GRP_L_leg_ballRollIKs
+    100188: GRP_R_arm_handIK
+    100190: GRP_R_foot_allIKS
+    100192: GRP_R_foot_ballRoll_IKs
+    100194: GRP_R_foot_toeRoll_IKs
+    100196: ikHandle1
+    100198: ikHandle10
+    100200: ikHandle11
+    100202: ikHandle12
+    100204: ikHandle13
+    100206: ikHandle14
+    100208: ikHandle2
+    100210: ikHandle3
+    100212: ikHandle4
+    100214: ikHandle5
+    100216: ikHandle6
+    100218: ikHandle7
+    100220: ikHandle8
+    100222: ikHandle9
+    100224: joint1
+    100226: pCube1
+    100228: pCube2
+    100230: pCylinder1
+    100232: pCylinder2
+    100234: pCylinder2 1
+    100236: pCylinder3
+    100238: pCylinder3 1
+    100240: pCylinder4
+    100242: pCylinder4 1
+    100244: pCylinder5
+    100246: pCylinder5 1
+    100248: polySurface3
+    100250: pPlane2
+    100252: pPlane2 1
+    100254: pPlane3
+    100256: pPlane3 1
+    100258: pPlane4
+    100260: pPlane4 1
+    100262: pPlane5
+    100264: pPlane5 1
+    100266: pPlane6
+    100268: pPlane6 1
+    100270: pPlane7
+    100272: pPlane7 1
+    100274: pPlane8
+    100276: pPlane8 1
+    400000: BN_clavicle_L_end
+    400002: BN_clavicle_L_start
+    400004: BN_clavicle_R_end
+    400006: BN_clavicle_R_start
+    400008: BN_head
+    400010: BN_headEnd
+    400012: BN_hoodie_A
+    400014: BN_hoodie_B
+    400016: BN_hoodie_C
+    400018: BN_hoodie_D
+    400020: BN_L_arm_elbow
+    400022: BN_L_arm_fingerA
+    400024: BN_L_arm_fingerB
+    400026: BN_L_arm_fingerC
+    400028: BN_L_arm_hand
+    400030: BN_L_arm_shoulder
+    400032: BN_L_arm_thumbA
+    400034: BN_L_arm_thumbB
+    400036: BN_L_arm_thumbC
+    400038: BN_L_arm_thumbD
+    400040: BN_L_arm_wrist
+    400042: BN_L_leg_ankle
+    400044: BN_L_leg_ball
+    400046: BN_L_leg_hip
+    400048: BN_L_leg_knee
+    400050: BN_L_leg_toe
+    400052: BN_L_leg_toeEnd
+    400054: BN_pelvis
+    400056: BN_R_arm_elbow
+    400058: BN_R_arm_fingerA
+    400060: BN_R_arm_fingerB
+    400062: BN_R_arm_fingerC
+    400064: BN_R_arm_hand
+    400066: BN_R_arm_shoulder
+    400068: BN_R_arm_thumbA
+    400070: BN_R_arm_thumbB
+    400072: BN_R_arm_thumbC
+    400074: BN_R_arm_thumbD
+    400076: BN_R_arm_wrist
+    400078: BN_R_leg_ankle
+    400080: BN_R_leg_ball
+    400082: BN_R_leg_hip
+    400084: BN_R_leg_knee
+    400086: BN_R_leg_toe
+    400088: BN_R_leg_toeEnd
+    400090: BN_spine_A
+    400092: BN_spine_B
+    400094: BN_spine_C1
+    400096: CC_hood_end
+    400098: CC_L_arm
+    400100: CC_L_foot
+    400102: CC_L_foot 1
+    400104: CC_main
+    400106: CC_neck
+    400108: CC_R_arm
+    400110: CC_upperBody
+    400112: //RootNode
+    400114: cluster1Handle
+    400116: cluster2Handle
+    400118: cluster3Handle
+    400120: cluster4Handle
+    400122: CRV_L_poleVector
+    400124: CRV_L_poleVector 1
+    400126: CRV_L_poleVector 2
+    400128: CRV_L_poleVector 3
+    400130: curve2
+    400132: curve3
+    400134: group1
+    400136: group10
+    400138: group3
+    400140: group4
+    400142: group5
+    400144: group6
+    400146: group7
+    400148: group8
+    400150: group9
+    400152: GRP_CC_L_arm
+    400154: GRP_CC_L_foot
+    400156: GRP_CC_L_foot1
+    400158: GRP_CC_main
+    400160: GRP_CC_neck
+    400162: GRP_CC_neck1
+    400164: GRP_CC_R_arm
+    400166: GRP_CC_upperBody
+    400168: GRP_CRV_L_poleVector
+    400170: GRP_CRV_L_poleVector1
+    400172: GRP_CRV_L_poleVector2
+    400174: GRP_CRV_L_poleVector3
+    400176: GRP_detailJoint
+    400178: GRP_joints
+    400180: GRP_L_arm_handIK
+    400182: GRP_L_foot_allIKs
+    400184: GRP_L_foot_toeRoll_IKs
+    400186: GRP_L_leg_ballRollIKs
+    400188: GRP_R_arm_handIK
+    400190: GRP_R_foot_allIKS
+    400192: GRP_R_foot_ballRoll_IKs
+    400194: GRP_R_foot_toeRoll_IKs
+    400196: ikHandle1
+    400198: ikHandle10
+    400200: ikHandle11
+    400202: ikHandle12
+    400204: ikHandle13
+    400206: ikHandle14
+    400208: ikHandle2
+    400210: ikHandle3
+    400212: ikHandle4
+    400214: ikHandle5
+    400216: ikHandle6
+    400218: ikHandle7
+    400220: ikHandle8
+    400222: ikHandle9
+    400224: joint1
+    400226: pCube1
+    400228: pCube2
+    400230: pCylinder1
+    400232: pCylinder2
+    400234: pCylinder2 1
+    400236: pCylinder3
+    400238: pCylinder3 1
+    400240: pCylinder4
+    400242: pCylinder4 1
+    400244: pCylinder5
+    400246: pCylinder5 1
+    400248: polySurface3
+    400250: pPlane2
+    400252: pPlane2 1
+    400254: pPlane3
+    400256: pPlane3 1
+    400258: pPlane4
+    400260: pPlane4 1
+    400262: pPlane5
+    400264: pPlane5 1
+    400266: pPlane6
+    400268: pPlane6 1
+    400270: pPlane7
+    400272: pPlane7 1
+    400274: pPlane8
+    400276: pPlane8 1
+    4300000: pCube1
+    4300002: pCylinder1
+    4300004: pCylinder2
+    4300006: pCylinder3
+    4300008: polySurface3
+    4300010: pCylinder4
+    4300012: pCylinder5
+    4300014: pCylinder4
+    4300016: pCylinder5
+    4300018: pPlane2
+    4300020: pPlane3
+    4300022: pPlane4
+    4300024: pPlane5
+    4300026: pPlane6
+    4300028: pPlane7
+    4300030: pPlane8
+    4300032: pPlane2
+    4300034: pPlane3
+    4300036: pPlane4
+    4300038: pPlane5
+    4300040: pPlane6
+    4300042: pPlane7
+    4300044: pPlane8
+    4300046: pCylinder2
+    4300048: pCylinder3
+    4300050: pCube2
+    7400000: Walk01
+    7400002: Run01
+    7400004: Idle01
+    7400006: Idle_sleep01
+    7400008: WakeUp01
+    7400010: Fall01
+    9500000: //RootNode
+    13700000: pCube1
+    13700002: pCube2
+    13700004: pCylinder1
+    13700006: pCylinder2
+    13700008: pCylinder2 1
+    13700010: pCylinder3
+    13700012: pCylinder3 1
+    13700014: pCylinder4
+    13700016: pCylinder4 1
+    13700018: pCylinder5
+    13700020: pCylinder5 1
+    13700022: polySurface3
+    13700024: pPlane2
+    13700026: pPlane2 1
+    13700028: pPlane3
+    13700030: pPlane3 1
+    13700032: pPlane4
+    13700034: pPlane4 1
+    13700036: pPlane5
+    13700038: pPlane5 1
+    13700040: pPlane6
+    13700042: pPlane6 1
+    13700044: pPlane7
+    13700046: pPlane7 1
+    13700048: pPlane8
+    13700050: pPlane8 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk01
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cluster1Handle
+        weight: 1
+      - path: cluster2Handle
+        weight: 1
+      - path: curve2
+        weight: 1
+      - path: curve3
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/group1
+        weight: 1
+      - path: group7/group1/pCylinder2
+        weight: 1
+      - path: group7/group1/pCylinder3
+        weight: 1
+      - path: group7/group3
+        weight: 1
+      - path: group7/group3/pCylinder4
+        weight: 1
+      - path: group7/group3/pCylinder5
+        weight: 1
+      - path: group7/group4
+        weight: 1
+      - path: group7/group4/pCylinder4 1
+        weight: 1
+      - path: group7/group4/pCylinder5 1
+        weight: 1
+      - path: group7/group5
+        weight: 1
+      - path: group7/group5/pPlane2
+        weight: 1
+      - path: group7/group5/pPlane3
+        weight: 1
+      - path: group7/group5/pPlane4
+        weight: 1
+      - path: group7/group5/pPlane5
+        weight: 1
+      - path: group7/group5/pPlane6
+        weight: 1
+      - path: group7/group5/pPlane7
+        weight: 1
+      - path: group7/group5/pPlane8
+        weight: 1
+      - path: group7/group6
+        weight: 1
+      - path: group7/group6/pPlane2 1
+        weight: 1
+      - path: group7/group6/pPlane3 1
+        weight: 1
+      - path: group7/group6/pPlane4 1
+        weight: 1
+      - path: group7/group6/pPlane5 1
+        weight: 1
+      - path: group7/group6/pPlane6 1
+        weight: 1
+      - path: group7/group6/pPlane7 1
+        weight: 1
+      - path: group7/group6/pPlane8 1
+        weight: 1
+      - path: group7/group8
+        weight: 1
+      - path: group7/group8/pCylinder2 1
+        weight: 1
+      - path: group7/group8/pCylinder3 1
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube2
+        weight: 1
+      - path: group7/pCylinder1
+        weight: 1
+      - path: group7/polySurface3
+        weight: 1
+      - path: GRP_CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_arm/CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot/CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot1
+        weight: 1
+      - path: GRP_CC_L_foot1/CC_L_foot 1
+        weight: 1
+      - path: GRP_CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9/cluster4Handle
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10/cluster3Handle
+        weight: 1
+      - path: GRP_CC_R_arm
+        weight: 1
+      - path: GRP_CC_R_arm/CC_R_arm
+        weight: 1
+      - path: GRP_CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector/CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector1
+        weight: 1
+      - path: GRP_CRV_L_poleVector1/CRV_L_poleVector 1
+        weight: 1
+      - path: GRP_CRV_L_poleVector2
+        weight: 1
+      - path: GRP_CRV_L_poleVector2/CRV_L_poleVector 2
+        weight: 1
+      - path: GRP_CRV_L_poleVector3
+        weight: 1
+      - path: GRP_CRV_L_poleVector3/CRV_L_poleVector 3
+        weight: 1
+      - path: GRP_detailJoint
+        weight: 1
+      - path: GRP_detailJoint/joint1
+        weight: 1
+      - path: GRP_joints
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB/BN_L_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC/BN_L_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe/BN_L_leg_toeEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start/BN_clavicle_L_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start/BN_clavicle_R_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C/BN_hoodie_D
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB/BN_R_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC/BN_R_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe/BN_R_leg_toeEnd
+        weight: 1
+      - path: GRP_L_arm_handIK
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle9
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle10
+        weight: 1
+      - path: GRP_L_foot_allIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle1
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle2
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle3
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle4
+        weight: 1
+      - path: GRP_R_arm_handIK
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle11
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle12
+        weight: 1
+      - path: GRP_R_foot_allIKS
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle5
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle8
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle6
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle7
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Run01
+      takeName: Take 001
+      firstFrame: 46
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cluster1Handle
+        weight: 1
+      - path: cluster2Handle
+        weight: 1
+      - path: curve2
+        weight: 1
+      - path: curve3
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/group1
+        weight: 1
+      - path: group7/group1/pCylinder2
+        weight: 1
+      - path: group7/group1/pCylinder3
+        weight: 1
+      - path: group7/group3
+        weight: 1
+      - path: group7/group3/pCylinder4
+        weight: 1
+      - path: group7/group3/pCylinder5
+        weight: 1
+      - path: group7/group4
+        weight: 1
+      - path: group7/group4/pCylinder4 1
+        weight: 1
+      - path: group7/group4/pCylinder5 1
+        weight: 1
+      - path: group7/group5
+        weight: 1
+      - path: group7/group5/pPlane2
+        weight: 1
+      - path: group7/group5/pPlane3
+        weight: 1
+      - path: group7/group5/pPlane4
+        weight: 1
+      - path: group7/group5/pPlane5
+        weight: 1
+      - path: group7/group5/pPlane6
+        weight: 1
+      - path: group7/group5/pPlane7
+        weight: 1
+      - path: group7/group5/pPlane8
+        weight: 1
+      - path: group7/group6
+        weight: 1
+      - path: group7/group6/pPlane2 1
+        weight: 1
+      - path: group7/group6/pPlane3 1
+        weight: 1
+      - path: group7/group6/pPlane4 1
+        weight: 1
+      - path: group7/group6/pPlane5 1
+        weight: 1
+      - path: group7/group6/pPlane6 1
+        weight: 1
+      - path: group7/group6/pPlane7 1
+        weight: 1
+      - path: group7/group6/pPlane8 1
+        weight: 1
+      - path: group7/group8
+        weight: 1
+      - path: group7/group8/pCylinder2 1
+        weight: 1
+      - path: group7/group8/pCylinder3 1
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube2
+        weight: 1
+      - path: group7/pCylinder1
+        weight: 1
+      - path: group7/polySurface3
+        weight: 1
+      - path: GRP_CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_arm/CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot/CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot1
+        weight: 1
+      - path: GRP_CC_L_foot1/CC_L_foot 1
+        weight: 1
+      - path: GRP_CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9/cluster4Handle
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10/cluster3Handle
+        weight: 1
+      - path: GRP_CC_R_arm
+        weight: 1
+      - path: GRP_CC_R_arm/CC_R_arm
+        weight: 1
+      - path: GRP_CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector/CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector1
+        weight: 1
+      - path: GRP_CRV_L_poleVector1/CRV_L_poleVector 1
+        weight: 1
+      - path: GRP_CRV_L_poleVector2
+        weight: 1
+      - path: GRP_CRV_L_poleVector2/CRV_L_poleVector 2
+        weight: 1
+      - path: GRP_CRV_L_poleVector3
+        weight: 1
+      - path: GRP_CRV_L_poleVector3/CRV_L_poleVector 3
+        weight: 1
+      - path: GRP_detailJoint
+        weight: 1
+      - path: GRP_detailJoint/joint1
+        weight: 1
+      - path: GRP_joints
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB/BN_L_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC/BN_L_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe/BN_L_leg_toeEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start/BN_clavicle_L_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start/BN_clavicle_R_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C/BN_hoodie_D
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB/BN_R_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC/BN_R_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe/BN_R_leg_toeEnd
+        weight: 1
+      - path: GRP_L_arm_handIK
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle9
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle10
+        weight: 1
+      - path: GRP_L_foot_allIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle1
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle2
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle3
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle4
+        weight: 1
+      - path: GRP_R_arm_handIK
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle11
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle12
+        weight: 1
+      - path: GRP_R_foot_allIKS
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle5
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle8
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle6
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle7
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle01
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cluster1Handle
+        weight: 1
+      - path: cluster2Handle
+        weight: 1
+      - path: curve2
+        weight: 1
+      - path: curve3
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/group1
+        weight: 1
+      - path: group7/group1/pCylinder2
+        weight: 1
+      - path: group7/group1/pCylinder3
+        weight: 1
+      - path: group7/group3
+        weight: 1
+      - path: group7/group3/pCylinder4
+        weight: 1
+      - path: group7/group3/pCylinder5
+        weight: 1
+      - path: group7/group4
+        weight: 1
+      - path: group7/group4/pCylinder4 1
+        weight: 1
+      - path: group7/group4/pCylinder5 1
+        weight: 1
+      - path: group7/group5
+        weight: 1
+      - path: group7/group5/pPlane2
+        weight: 1
+      - path: group7/group5/pPlane3
+        weight: 1
+      - path: group7/group5/pPlane4
+        weight: 1
+      - path: group7/group5/pPlane5
+        weight: 1
+      - path: group7/group5/pPlane6
+        weight: 1
+      - path: group7/group5/pPlane7
+        weight: 1
+      - path: group7/group5/pPlane8
+        weight: 1
+      - path: group7/group6
+        weight: 1
+      - path: group7/group6/pPlane2 1
+        weight: 1
+      - path: group7/group6/pPlane3 1
+        weight: 1
+      - path: group7/group6/pPlane4 1
+        weight: 1
+      - path: group7/group6/pPlane5 1
+        weight: 1
+      - path: group7/group6/pPlane6 1
+        weight: 1
+      - path: group7/group6/pPlane7 1
+        weight: 1
+      - path: group7/group6/pPlane8 1
+        weight: 1
+      - path: group7/group8
+        weight: 1
+      - path: group7/group8/pCylinder2 1
+        weight: 1
+      - path: group7/group8/pCylinder3 1
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube2
+        weight: 1
+      - path: group7/pCylinder1
+        weight: 1
+      - path: group7/polySurface3
+        weight: 1
+      - path: GRP_CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_arm/CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot/CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot1
+        weight: 1
+      - path: GRP_CC_L_foot1/CC_L_foot 1
+        weight: 1
+      - path: GRP_CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9/cluster4Handle
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10/cluster3Handle
+        weight: 1
+      - path: GRP_CC_R_arm
+        weight: 1
+      - path: GRP_CC_R_arm/CC_R_arm
+        weight: 1
+      - path: GRP_CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector/CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector1
+        weight: 1
+      - path: GRP_CRV_L_poleVector1/CRV_L_poleVector 1
+        weight: 1
+      - path: GRP_CRV_L_poleVector2
+        weight: 1
+      - path: GRP_CRV_L_poleVector2/CRV_L_poleVector 2
+        weight: 1
+      - path: GRP_CRV_L_poleVector3
+        weight: 1
+      - path: GRP_CRV_L_poleVector3/CRV_L_poleVector 3
+        weight: 1
+      - path: GRP_detailJoint
+        weight: 1
+      - path: GRP_detailJoint/joint1
+        weight: 1
+      - path: GRP_joints
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB/BN_L_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC/BN_L_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe/BN_L_leg_toeEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start/BN_clavicle_L_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start/BN_clavicle_R_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C/BN_hoodie_D
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB/BN_R_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC/BN_R_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe/BN_R_leg_toeEnd
+        weight: 1
+      - path: GRP_L_arm_handIK
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle9
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle10
+        weight: 1
+      - path: GRP_L_foot_allIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle1
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle2
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle3
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle4
+        weight: 1
+      - path: GRP_R_arm_handIK
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle11
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle12
+        weight: 1
+      - path: GRP_R_foot_allIKS
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle5
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle8
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle6
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle7
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle_sleep01
+      takeName: Take 001
+      firstFrame: 149
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cluster1Handle
+        weight: 1
+      - path: cluster2Handle
+        weight: 1
+      - path: curve2
+        weight: 1
+      - path: curve3
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/group1
+        weight: 1
+      - path: group7/group1/pCylinder2
+        weight: 1
+      - path: group7/group1/pCylinder3
+        weight: 1
+      - path: group7/group3
+        weight: 1
+      - path: group7/group3/pCylinder4
+        weight: 1
+      - path: group7/group3/pCylinder5
+        weight: 1
+      - path: group7/group4
+        weight: 1
+      - path: group7/group4/pCylinder4 1
+        weight: 1
+      - path: group7/group4/pCylinder5 1
+        weight: 1
+      - path: group7/group5
+        weight: 1
+      - path: group7/group5/pPlane2
+        weight: 1
+      - path: group7/group5/pPlane3
+        weight: 1
+      - path: group7/group5/pPlane4
+        weight: 1
+      - path: group7/group5/pPlane5
+        weight: 1
+      - path: group7/group5/pPlane6
+        weight: 1
+      - path: group7/group5/pPlane7
+        weight: 1
+      - path: group7/group5/pPlane8
+        weight: 1
+      - path: group7/group6
+        weight: 1
+      - path: group7/group6/pPlane2 1
+        weight: 1
+      - path: group7/group6/pPlane3 1
+        weight: 1
+      - path: group7/group6/pPlane4 1
+        weight: 1
+      - path: group7/group6/pPlane5 1
+        weight: 1
+      - path: group7/group6/pPlane6 1
+        weight: 1
+      - path: group7/group6/pPlane7 1
+        weight: 1
+      - path: group7/group6/pPlane8 1
+        weight: 1
+      - path: group7/group8
+        weight: 1
+      - path: group7/group8/pCylinder2 1
+        weight: 1
+      - path: group7/group8/pCylinder3 1
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube2
+        weight: 1
+      - path: group7/pCylinder1
+        weight: 1
+      - path: group7/polySurface3
+        weight: 1
+      - path: GRP_CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_arm/CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot/CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot1
+        weight: 1
+      - path: GRP_CC_L_foot1/CC_L_foot 1
+        weight: 1
+      - path: GRP_CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9/cluster4Handle
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10/cluster3Handle
+        weight: 1
+      - path: GRP_CC_R_arm
+        weight: 1
+      - path: GRP_CC_R_arm/CC_R_arm
+        weight: 1
+      - path: GRP_CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector/CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector1
+        weight: 1
+      - path: GRP_CRV_L_poleVector1/CRV_L_poleVector 1
+        weight: 1
+      - path: GRP_CRV_L_poleVector2
+        weight: 1
+      - path: GRP_CRV_L_poleVector2/CRV_L_poleVector 2
+        weight: 1
+      - path: GRP_CRV_L_poleVector3
+        weight: 1
+      - path: GRP_CRV_L_poleVector3/CRV_L_poleVector 3
+        weight: 1
+      - path: GRP_detailJoint
+        weight: 1
+      - path: GRP_detailJoint/joint1
+        weight: 1
+      - path: GRP_joints
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB/BN_L_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC/BN_L_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe/BN_L_leg_toeEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start/BN_clavicle_L_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start/BN_clavicle_R_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C/BN_hoodie_D
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB/BN_R_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC/BN_R_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe/BN_R_leg_toeEnd
+        weight: 1
+      - path: GRP_L_arm_handIK
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle9
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle10
+        weight: 1
+      - path: GRP_L_foot_allIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle1
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle2
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle3
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle4
+        weight: 1
+      - path: GRP_R_arm_handIK
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle11
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle12
+        weight: 1
+      - path: GRP_R_foot_allIKS
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle5
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle8
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle6
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle7
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: WakeUp01
+      takeName: Take 001
+      firstFrame: 182
+      lastFrame: 256
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.9704641
+        functionName: characterAwoken
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cluster1Handle
+        weight: 1
+      - path: cluster2Handle
+        weight: 1
+      - path: curve2
+        weight: 1
+      - path: curve3
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/group1
+        weight: 1
+      - path: group7/group1/pCylinder2
+        weight: 1
+      - path: group7/group1/pCylinder3
+        weight: 1
+      - path: group7/group3
+        weight: 1
+      - path: group7/group3/pCylinder4
+        weight: 1
+      - path: group7/group3/pCylinder5
+        weight: 1
+      - path: group7/group4
+        weight: 1
+      - path: group7/group4/pCylinder4 1
+        weight: 1
+      - path: group7/group4/pCylinder5 1
+        weight: 1
+      - path: group7/group5
+        weight: 1
+      - path: group7/group5/pPlane2
+        weight: 1
+      - path: group7/group5/pPlane3
+        weight: 1
+      - path: group7/group5/pPlane4
+        weight: 1
+      - path: group7/group5/pPlane5
+        weight: 1
+      - path: group7/group5/pPlane6
+        weight: 1
+      - path: group7/group5/pPlane7
+        weight: 1
+      - path: group7/group5/pPlane8
+        weight: 1
+      - path: group7/group6
+        weight: 1
+      - path: group7/group6/pPlane2 1
+        weight: 1
+      - path: group7/group6/pPlane3 1
+        weight: 1
+      - path: group7/group6/pPlane4 1
+        weight: 1
+      - path: group7/group6/pPlane5 1
+        weight: 1
+      - path: group7/group6/pPlane6 1
+        weight: 1
+      - path: group7/group6/pPlane7 1
+        weight: 1
+      - path: group7/group6/pPlane8 1
+        weight: 1
+      - path: group7/group8
+        weight: 1
+      - path: group7/group8/pCylinder2 1
+        weight: 1
+      - path: group7/group8/pCylinder3 1
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube2
+        weight: 1
+      - path: group7/pCylinder1
+        weight: 1
+      - path: group7/polySurface3
+        weight: 1
+      - path: GRP_CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_arm/CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot/CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot1
+        weight: 1
+      - path: GRP_CC_L_foot1/CC_L_foot 1
+        weight: 1
+      - path: GRP_CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9/cluster4Handle
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10/cluster3Handle
+        weight: 1
+      - path: GRP_CC_R_arm
+        weight: 1
+      - path: GRP_CC_R_arm/CC_R_arm
+        weight: 1
+      - path: GRP_CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector/CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector1
+        weight: 1
+      - path: GRP_CRV_L_poleVector1/CRV_L_poleVector 1
+        weight: 1
+      - path: GRP_CRV_L_poleVector2
+        weight: 1
+      - path: GRP_CRV_L_poleVector2/CRV_L_poleVector 2
+        weight: 1
+      - path: GRP_CRV_L_poleVector3
+        weight: 1
+      - path: GRP_CRV_L_poleVector3/CRV_L_poleVector 3
+        weight: 1
+      - path: GRP_detailJoint
+        weight: 1
+      - path: GRP_detailJoint/joint1
+        weight: 1
+      - path: GRP_joints
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB/BN_L_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC/BN_L_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe/BN_L_leg_toeEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start/BN_clavicle_L_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start/BN_clavicle_R_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C/BN_hoodie_D
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB/BN_R_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC/BN_R_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe/BN_R_leg_toeEnd
+        weight: 1
+      - path: GRP_L_arm_handIK
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle9
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle10
+        weight: 1
+      - path: GRP_L_foot_allIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle1
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle2
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle3
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle4
+        weight: 1
+      - path: GRP_R_arm_handIK
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle11
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle12
+        weight: 1
+      - path: GRP_R_foot_allIKS
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle5
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle8
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle6
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle7
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Fall01
+      takeName: Take 001
+      firstFrame: 67
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cluster1Handle
+        weight: 1
+      - path: cluster2Handle
+        weight: 1
+      - path: curve2
+        weight: 1
+      - path: curve3
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group7/group1
+        weight: 1
+      - path: group7/group1/pCylinder2
+        weight: 1
+      - path: group7/group1/pCylinder3
+        weight: 1
+      - path: group7/group3
+        weight: 1
+      - path: group7/group3/pCylinder4
+        weight: 1
+      - path: group7/group3/pCylinder5
+        weight: 1
+      - path: group7/group4
+        weight: 1
+      - path: group7/group4/pCylinder4 1
+        weight: 1
+      - path: group7/group4/pCylinder5 1
+        weight: 1
+      - path: group7/group5
+        weight: 1
+      - path: group7/group5/pPlane2
+        weight: 1
+      - path: group7/group5/pPlane3
+        weight: 1
+      - path: group7/group5/pPlane4
+        weight: 1
+      - path: group7/group5/pPlane5
+        weight: 1
+      - path: group7/group5/pPlane6
+        weight: 1
+      - path: group7/group5/pPlane7
+        weight: 1
+      - path: group7/group5/pPlane8
+        weight: 1
+      - path: group7/group6
+        weight: 1
+      - path: group7/group6/pPlane2 1
+        weight: 1
+      - path: group7/group6/pPlane3 1
+        weight: 1
+      - path: group7/group6/pPlane4 1
+        weight: 1
+      - path: group7/group6/pPlane5 1
+        weight: 1
+      - path: group7/group6/pPlane6 1
+        weight: 1
+      - path: group7/group6/pPlane7 1
+        weight: 1
+      - path: group7/group6/pPlane8 1
+        weight: 1
+      - path: group7/group8
+        weight: 1
+      - path: group7/group8/pCylinder2 1
+        weight: 1
+      - path: group7/group8/pCylinder3 1
+        weight: 1
+      - path: group7/pCube1
+        weight: 1
+      - path: group7/pCube2
+        weight: 1
+      - path: group7/pCylinder1
+        weight: 1
+      - path: group7/polySurface3
+        weight: 1
+      - path: GRP_CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_arm/CC_L_arm
+        weight: 1
+      - path: GRP_CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot/CC_L_foot
+        weight: 1
+      - path: GRP_CC_L_foot1
+        weight: 1
+      - path: GRP_CC_L_foot1/CC_L_foot 1
+        weight: 1
+      - path: GRP_CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/group9/cluster4Handle
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10
+        weight: 1
+      - path: GRP_CC_main/CC_main/GRP_CC_upperBody/CC_upperBody/GRP_CC_neck/CC_neck/GRP_CC_neck1/CC_hood_end/group10/cluster3Handle
+        weight: 1
+      - path: GRP_CC_R_arm
+        weight: 1
+      - path: GRP_CC_R_arm/CC_R_arm
+        weight: 1
+      - path: GRP_CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector/CRV_L_poleVector
+        weight: 1
+      - path: GRP_CRV_L_poleVector1
+        weight: 1
+      - path: GRP_CRV_L_poleVector1/CRV_L_poleVector 1
+        weight: 1
+      - path: GRP_CRV_L_poleVector2
+        weight: 1
+      - path: GRP_CRV_L_poleVector2/CRV_L_poleVector 2
+        weight: 1
+      - path: GRP_CRV_L_poleVector3
+        weight: 1
+      - path: GRP_CRV_L_poleVector3/CRV_L_poleVector 3
+        weight: 1
+      - path: GRP_detailJoint
+        weight: 1
+      - path: GRP_detailJoint/joint1
+        weight: 1
+      - path: GRP_joints
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_fingerA/BN_L_arm_fingerB/BN_L_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_L_arm_shoulder/BN_L_arm_elbow/BN_L_arm_wrist/BN_L_arm_hand/BN_L_arm_thumbA/BN_L_arm_thumbB/BN_L_arm_thumbC/BN_L_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_L_leg_hip/BN_L_leg_knee/BN_L_leg_ankle/BN_L_leg_ball/BN_L_leg_toe/BN_L_leg_toeEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_L_start/BN_clavicle_L_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_clavicle_R_start/BN_clavicle_R_end
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C
+        weight: 1
+      - path: GRP_joints/BN_pelvis/BN_spine_A/BN_spine_B/BN_spine_C1/BN_head/BN_headEnd/BN_hoodie_A/BN_hoodie_B/BN_hoodie_C/BN_hoodie_D
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_fingerA/BN_R_arm_fingerB/BN_R_arm_fingerC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC
+        weight: 1
+      - path: GRP_joints/BN_R_arm_shoulder/BN_R_arm_elbow/BN_R_arm_wrist/BN_R_arm_hand/BN_R_arm_thumbA/BN_R_arm_thumbB/BN_R_arm_thumbC/BN_R_arm_thumbD
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe
+        weight: 1
+      - path: GRP_joints/BN_R_leg_hip/BN_R_leg_knee/BN_R_leg_ankle/BN_R_leg_ball/BN_R_leg_toe/BN_R_leg_toeEnd
+        weight: 1
+      - path: GRP_L_arm_handIK
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle9
+        weight: 1
+      - path: GRP_L_arm_handIK/ikHandle10
+        weight: 1
+      - path: GRP_L_foot_allIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle1
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/GRP_L_leg_ballRollIKs/ikHandle2
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle3
+        weight: 1
+      - path: GRP_L_foot_allIKs/GRP_L_foot_toeRoll_IKs/ikHandle4
+        weight: 1
+      - path: GRP_R_arm_handIK
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle11
+        weight: 1
+      - path: GRP_R_arm_handIK/ikHandle12
+        weight: 1
+      - path: GRP_R_foot_allIKS
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle5
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/GRP_R_foot_ballRoll_IKs/ikHandle8
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle6
+        weight: 1
+      - path: GRP_R_foot_allIKS/GRP_R_foot_toeRoll_IKs/ikHandle7
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

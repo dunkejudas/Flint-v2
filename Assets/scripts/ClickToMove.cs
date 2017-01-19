@@ -19,6 +19,8 @@ namespace CompleteProject
 		private bool enemyClicked;
 		private float nextFire;
 
+        public bool _isAwake = false;
+
 		// Use this for initialization
 		void Awake () 
 		{
@@ -50,23 +52,30 @@ namespace CompleteProject
 
 			if (Input.GetButtonDown("Fire1")) 
 			{
-				if (Physics.Raycast(ray, out hit, 100))
-				{
-					if (hit.collider.CompareTag("Lantern"))
-					{
-						targetedEnemy = hit.transform;
-						enemyClicked = true;
-					}
+                if (_isAwake)
+                {
+                    if (Physics.Raycast(ray, out hit, 100))
+                    {
+                        if (hit.collider.CompareTag("Lantern"))
+                        {
+                            targetedEnemy = hit.transform;
+                            enemyClicked = true;
+                        }
 
-					else
-					{
-                        StartCoroutine("rotateToTarget", hit.point);
+                        else
+                        {
+                            StartCoroutine("rotateToTarget", hit.point);
 
 
-						enemyClicked = false;
+                            enemyClicked = false;
 
-					}
-				}
+                        }
+                    }
+                } else
+                {
+                    anim.SetBool("startWakeUp", true);
+                }
+
 			}
 
 			
@@ -133,6 +142,11 @@ namespace CompleteProject
         public void interactionFrame()
         {
             anim.SetBool("startInteracting", false);
+        }
+
+        public void characterAwoken()
+        {
+            _isAwake = true;
         }
 
     }
