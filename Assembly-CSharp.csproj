@@ -55,6 +55,7 @@
      <Compile Include="Assets\Fire FX\Scripts\lightScript.cs" />
      <Compile Include="Assets\Fire FX\Scripts\loopScript.cs" />
      <Compile Include="Assets\mainLight.cs" />
+     <Compile Include="Assets\models\platform\platformMain_SN.cs" />
      <Compile Include="Assets\scripts\ClickToMove.cs" />
      <Compile Include="Assets\scripts\ScreenFader.cs" />
      <Compile Include="Assets\scripts\gameManager.cs" />

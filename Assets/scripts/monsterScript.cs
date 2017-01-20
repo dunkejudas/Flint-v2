@@ -8,7 +8,7 @@ public class monsterScript : MonoBehaviour {
     private GameObject playerHandle;
 
     public bool followPlayer = true;
-    public float monsterFollowSpeed = 1.0f;
+    public float monsterFollowSpeed = 0.2f;
 
 	// Use this for initialization
 	void Start () {
@@ -25,7 +25,7 @@ public class monsterScript : MonoBehaviour {
 		
         if (followPlayer)
         {
-            Vector3 tempPosition = Vector3.Lerp(this.transform.position, playerHandle.transform.position, Time.deltaTime * monsterFollowSpeed);
+            Vector3 tempPosition = Vector3.Lerp(this.transform.position, playerHandle.transform.position, (Time.deltaTime * monsterFollowSpeed));
             this.transform.position = new Vector3(tempPosition.x, this.transform.position.y, tempPosition.z);
         }
 	}
